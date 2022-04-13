@@ -1,0 +1,11 @@
+i {
+  color:#ff0000;
+}
+
+.links a {
+text-decoration: none;
+}
+
+a[href*=".com"] {
+  color:black
+}

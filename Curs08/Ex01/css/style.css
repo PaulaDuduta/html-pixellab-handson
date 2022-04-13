@@ -1,0 +1,15 @@
+ol a {
+  color: green;
+  text-decoration: line-through solid blue;
+}
+
+ul li {
+  color: purple;
+  text-decoration: underline;
+}
+
+p i {
+  color: blue;
+  font-weight: bold;
+  text-decoration: line-through;
+}
