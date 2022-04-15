@@ -128,3 +128,25 @@ font-size: 35px;
 ol a {
 font-weight: 700;
 }
+
+ul li {
+  line-height: 25px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif, bold;
+  color: green;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'Julius Sans One';
+  color: purple;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+p {
+  line-height: 23px;
+}
