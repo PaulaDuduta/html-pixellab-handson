@@ -258,7 +258,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1272px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -284,6 +284,12 @@ body {
   margin: 20px 0 0 220px;
 }
 
+@media (min-width:1330px) {
+  .header-top .header-connect {
+    margin: 10px 0 0 340px;
+  }
+}
+
 .header-top .header-connect li {
   display: inline;
   text-align: left;
@@ -303,6 +309,12 @@ body {
   margin: 20px 270px 0 0;
   position: relative;
   align-items: center;
+}
+
+@media (min-width:1330px) {
+  .header-top .header-controls {
+    margin: 10px 420px 0 0;
+  }
 }
 
 .header-controls .control-buttons li{
@@ -353,10 +365,18 @@ body {
   color: #2B2B2B;
 }
 
-.header-bottom ul{
-  display: flex;
+.header-bottom {
+  min-width: 1200px;
   background-color: #2B2B2B;
-  justify-content: space-around;
+  background-size: cover;
+}
+
+.header-bottom ul{
+  max-width: 1200px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header-bottom li {
@@ -368,6 +388,7 @@ body {
   text-transform: uppercase;
   color: #E8E8E8;
   font-size: 19px;
+  max-width: 1200px;
 }
 /* end-header */
 
@@ -409,7 +430,14 @@ body {
   background-color: #E8E8E8;
   text-align: left;
   padding: 20px 0;
+  min-width: 1200px;
   justify-content: space-around;
+}
+
+.footer-contact {
+  display: inline-flex;
+  margin-right: 60px;
+  text-align: left;
 }
 
 .footer-contact li a {
@@ -422,8 +450,13 @@ body {
   list-style-type: none;
 }
 
+.footer-contact ul {
+  padding: 0;
+}
+
 .footer-nav {
   display: inline-flex;
+  margin: 0 60px;
 }
 
 .footer-nav li a {
@@ -437,12 +470,18 @@ body {
 }
 
 .footer-nav ul {
-  padding: 0 50px;
-  margin: 0 50px;
+  margin: 0 62px;
+  padding-left: 0;
+}
+
+.footer-connect {
+  display: inline-flex;
+  margin-left: 60px;
+  flex-direction: column;
 }
 
 .footer-newsletter {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
@@ -454,6 +493,7 @@ body {
   border: 1px solid #CCCC;
   height: 30px;
   margin: 10px 0;
+  width: 220px;
 }
 
 .footer-newsletter button {
