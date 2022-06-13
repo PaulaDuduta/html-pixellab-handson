@@ -390,14 +390,15 @@ a{
 .product-tiles {
   margin: 23px 0 80px 0;
   display: inline-flex;
+  justify-content: space-between;
+  gap: 5px;
 }
 
-.product-tiles .product-tile {
-  text-align: center;
+.product-tile {
   width: 26.75%;
 }
 
-.product-image-container {
+.product-tile .product-image-container {
   position: relative;
 }
 
@@ -418,6 +419,10 @@ a{
   font-size: 22px;
   color: #2B2B2B;
   text-transform: uppercase;
+}
+
+.product-tile-title {
+  text-align: center;
 }
 
 .home-content {
@@ -449,7 +454,7 @@ a{
 }
 
 .catalog-ctas {
-margin: 0 550px 50px 550px;
+  margin: 0 550px 50px 550px;
 }
 
 .catalog-ctas button {
