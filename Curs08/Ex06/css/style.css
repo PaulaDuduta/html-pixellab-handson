@@ -17,20 +17,20 @@
 }
 
 .container {
-width: 75%;
-border: 3px solid green;
-padding: 15px;
-box-shadow: 3px 3px 2px blue;
+  width: 75%;
+  border: 3px solid green;
+  padding: 15px;
+  box-shadow: 3px 3px 2px blue;
 }
 
 .green {
-width: 500px;
-height: 220px;
-border: 1px solid black;
-margin: 20px;
-padding: 15px;
-box-shadow: 15px 15px 2px gray;
-background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 15px;
+  box-shadow: 15px 15px 2px gray;
+  background-color: green;
 }
 
 .purple {

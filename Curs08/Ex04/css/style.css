@@ -3,13 +3,13 @@
   padding: 5px;
 }
 
-.nav-top{
-position: absolute;
-top: 0;
-right: 0;
-padding: 8px;
-background-color: black;
-z-index: 1;
+.nav-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  background-color: black;
+  z-index: 1;
 }
 
 .nav-top a {
@@ -34,15 +34,22 @@ z-index: 1;
 }
 
 .container .legend {
-  position:absolute;
+  position: absolute;
   top: -10px;
   background-color: gray;
   border: 1px solid red;
 }
 
 .container .sub {
-  position:relative;
-bottom: -3px;
-font-size: 12px;
+  position: relative;
+  bottom: -3px;
+  font-size: 12px;
 }
 
+.section-title {
+  text-align: center;
+  background-color: #fff;
+  position: sticky;
+  top: 8px;
+  z-index: 1;
+}

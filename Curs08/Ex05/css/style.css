@@ -1,5 +1,5 @@
-body{
-padding: 20px 0;
+body {
+  padding: 20px 0;
 }
 
 .container {
@@ -43,4 +43,13 @@ a {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.section-title {
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 8px 0;
+  position: sticky;
+  top: 8px;
 }
